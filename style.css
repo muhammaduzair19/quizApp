@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(200deg, rgb(252, 226, 184), rgb(203, 245, 245));
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    box-shadow: 1px 1px 20px 5px rgb(231, 210, 210);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-height: 80%;
+    /* background-image: linear-gradient(45deg, rgb(221, 255, 246), rgb(241, 220, 255)); */
+    background-color: rgba(175, 214, 245, 0.612);
+    border-radius: 10px;
+}
+.inner-heading{
+    text-align: center;
+    box-shadow: 10px 1px 16px 2px gray;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 30px;
+    background-color: #9df9d5;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.topic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items:start;
+    margin: 10px;
+
+    border-radius: 10px;
+    height: 100%;
+}
+.topic-card{
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    width: 260px;
+    height: 220px;
+    background: #9df9d5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 1px 16px 2px gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+.topic-card:hover{
+    scale: 1.04;
+    font-style: italic;
+    background-color: #bdf8e1;
+}
+.topic-card:active{
+    background-color: rgb(254, 220, 220);
+}
+.html{
+    width: 130px;
+    height: 150px;
+    margin: 10px;
+    background-image: url(./images/html.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.css{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-image: url(./images/css.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.js{
+    width: 215px;
+    height: 150px;
+    margin: 10px;
+    background-image: url(./images/js.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ts{
+    width: 110px;
+    height: 150px;
+    margin: 10px;
+    background-image: url(./images/ts.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

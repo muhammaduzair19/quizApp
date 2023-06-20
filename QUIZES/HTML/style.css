@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(200deg, rgb(252, 226, 184), rgb(203, 245, 245));
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    box-shadow: 1px 1px 20px 5px rgb(231, 210, 210);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-height: 80%;
+    /* background-image: linear-gradient(45deg, rgb(221, 255, 246), rgb(241, 220, 255)); */
+    background-color: rgba(175, 214, 245, 0.612);
+    border-radius: 10px;
+}
+
+.inner-heading {
+    text-align: center;
+    box-shadow: 10px 1px 16px 2px gray;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 30px;
+    background-color: #9df9d5;
+}
+
+.startbtn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.startbtn button {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    border: none;
+    background-color: #9df9d5;
+    box-shadow: 10px 1px 16px 2px gray;
+}
+
+.startbtn button:hover {
+    scale: 1.04;
+    font-style: italic;
+    background-color: #bdf8e1;
+}
+
+.startbtn button:active {
+    background-color: rgb(254, 220, 220);
+}
+
+.quizes {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 30px;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+.question {
+    font-size: x-large;
+    font-weight: 500;
+    margin: 0 auto 50px auto;
+    width: 550px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    max-height: 200px;
+    border-radius: 5px;
+    border: none;
+    background-color: #9df9d5;
+    box-shadow: 10px 1px 16px 2px gray;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+label {
+    font-size: x-large;
+    font-weight: 300;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    min-width: 100px;
+    width: 510px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    max-height: 200px;
+    border-radius: 5px;
+    border: none;
+    background-color: #9df9d5;
+    box-shadow: 10px 1px 16px 2px gray;
+}
+label input{
+    width: 30px;
+    margin-right: 10px;
+}
+.btn-navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-navigation button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    border: none;
+    background-color: #9df9d5;
+    box-shadow: 10px 1px 16px 2px gray;
+
+}
+.btn-navigation button:hover {
+    scale: 1.04;
+    font-style: italic;
+    background-color: #bdf8e1;
+}
+
+.btn-navigation button:active {
+    background-color: rgb(254, 220, 220);
+}
+.margin{
+    margin-top: 20px;
+}
+.hidden {
+    display: none;
+}
